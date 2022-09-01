@@ -3,7 +3,7 @@ import Homepage from "./pages/homepage/Homepage";
 import { Router, Route, Routes  } from "react-router-dom";
 
 function App() {
-  const currentUser = true;
+  const currentUser = false;
   return (
     <Router>
       <Topbar/>
